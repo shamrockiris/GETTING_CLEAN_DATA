@@ -8,20 +8,20 @@ There is a function defined in this script: mysplit. Because the data read in fo
 
 CODE BOOK
 ==========
-### set: set data container when first read in
-### lableTest: lable of activity for test data
-### subjectTest: subject for test data
-### setTest: combined data for test set with each observation's lable and subject
-### lableTrain: lable of activity for training data
-### subjectTrain: subject for training data
-### setTrain: combined data for train set with each observation's lable and subject
-### mergedData: dataset after merged test set and train set
-### mycleanData: dataset with only mean and standard value for each measurement
-### first: subset of data for activity "WALKING"
-### second: subset of data for activity "WALKING UPSTAIRS"
-### third: subset of data for activity "WALKING DOWNSTAIRS"
-### fourth: subset of data for activity "SITTING"
-### fifth: subset of data for activity "STANDING"
-### sixth: subset of data for activity "LAYING"
-### newData: melt myCleanData into new dataset with all measurement under variable.
-### finalData: dataset give average value for each measurement for each subject and activity
++ set: set data container when first read in
++ lableTest: lable of activity for test data
++ subjectTest: subject for test data
++ setTest: combined data for test set with each observation's lable and subject
++ lableTrain: lable of activity for training data
++ subjectTrain: subject for training data
++ setTrain: combined data for train set with each observation's lable and subject
++ mergedData: dataset after merged test set and train set
++ mycleanData: dataset with only mean and standard value for each measurement
++ first: subset of data for activity "WALKING"
++ second: subset of data for activity "WALKING UPSTAIRS"
++ third: subset of data for activity "WALKING DOWNSTAIRS"
++ fourth: subset of data for activity "SITTING"
++ fifth: subset of data for activity "STANDING"
++ sixth: subset of data for activity "LAYING"
++ newData: melt myCleanData into new dataset with all measurement under variable.
++ finalData: dataset give average value for each measurement for each subject and activity
